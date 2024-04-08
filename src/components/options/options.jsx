@@ -1,4 +1,4 @@
-import css from "./Options.module.css";
+import css from "./options.module.css";
 
 export default function Options({  change, reset, total }) {
    
