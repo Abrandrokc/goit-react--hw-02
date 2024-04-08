@@ -1,8 +1,5 @@
 import { useState, useEffect } from 'react'
-import Descriptions from "./components/Descriptions/Descriptions"
-import Options from "./components/Options/Options"
-import Feedback from './components/Feedback/Feedback'
-import Notifications from './components/Notifications/Notifications'
+
 
 function App() {
   const getInitialClicks = () => {
