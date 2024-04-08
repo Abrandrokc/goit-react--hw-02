@@ -1,4 +1,4 @@
-import css from "./descriptions.module.css"
+import css from "./Descriptions.module.css"
 export default function discriptions() {
     return <>
         <h2> Sip Happens Café </h2>
