@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Descriptions from './components/Descriptions/Descriptions';
 import Feedback from './components/Feedback/Feedback';
-import Notifications from './components/Notifications/Notifications';
+import Notification from './components/Notification/Notification';
 import Options from './components/Options/Options';
 
 function App() {
@@ -40,9 +40,10 @@ function App() {
 
   return (
     <>
+     
       <Descriptions />
       <Options  change={updateFeedback} total={totalFeedback} reset={resetFeedback} />
-      {totalFeedback > 0 ? <Feedback options={clicks}  positive={positive} total={totalFeedback}/> : <Notifications />}
+      {totalFeedback > 0 ? <Feedback options={clicks}  positive={positive} total={totalFeedback}/> : <Notification />}
     </>
   );
 }
